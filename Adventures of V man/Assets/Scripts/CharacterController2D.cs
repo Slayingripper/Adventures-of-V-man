@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -141,4 +142,10 @@ public class CharacterController2D : MonoBehaviour
 		// Multiply the player's x local scale by -1.
 		transform.Rotate(0f,180f,0f);
 	}
+	  void OnTriggerEnter2D(Collider2D otherObject)
+  {
+      if (otherObject.tag == "Enemy") {
+          SceneManager.LoadScene("Main");
+          }
+ }
 }
