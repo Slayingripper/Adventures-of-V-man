@@ -59,6 +59,7 @@
      <Compile Include="Assets\EnemySpawnScript.cs" />
      <Compile Include="Assets\fire.cs" />
      <Compile Include="Assets\Hitfinish.cs" />
+     <Compile Include="Assets\Mainmenu.cs" />
      <Compile Include="Assets\RestartButton.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
